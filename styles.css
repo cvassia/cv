@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+}
+
+#cover {
+  width: 100%;
+}
+
+h5 {
+  width: 53%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 20px;
+  color: #6f0000;
+  margin-top: 2em;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+h2 {
+  background-color: #6f0000;
+  color: #d8d4d6;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0.5em;
+  font-size: 30px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.hard h2 {
+  margin-bottom: 0;
+  margin-top: 2em;
+
+  font-size: 30px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+h3 {
+  background-color: beige;
+  color: #6f0000;
+  margin-bottom: 2em;
+  padding: 0.5em;
+  padding-left: 2em;
+  font-size: 26px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.design ul,
+.code ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.design li,
+.code li {
+  list-style: none;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+img {
+  width: 45px;
+}
+
+.design p,
+.code p {
+  padding-left: 1em;
+  color: #6f0000;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#api {
+  font-size: 19px;
+}
+
+.soft li {
+  list-style: none;
+  padding: 0.5em;
+  color: #6f0000;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 20px;
+}
+
+.education li {
+  list-style: none;
+  padding: 0.5em;
+  color: #6f0000;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 19px;
+}
+
+.experience li {
+  list-style: none;
+  color: #6f0000;
+  padding: 0.5em;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 19px;
+}
+
+.experience {
+  margin-bottom: 2em;
+}
