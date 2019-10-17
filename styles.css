@@ -7,10 +7,10 @@
 }
 
 h5 {
-  width: 53%;
-  margin: 0 auto;
+  width: 70%;
+  margin-left: 5em;
   text-align: justify;
-  font-size: 20px;
+  font-size: 10px;
   color: #6f0000;
   margin-top: 2em;
   font-family: "IBM Plex Mono", monospace;
@@ -19,28 +19,26 @@ h5 {
 h2 {
   background-color: #6f0000;
   color: #d8d4d6;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   padding: 0.5em;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "IBM Plex Mono", monospace;
 }
 
 .hard h2 {
   margin-bottom: 0;
-  margin-top: 2em;
-
-  font-size: 30px;
+  font-size: 20px;
   font-family: "IBM Plex Mono", monospace;
 }
 
 h3 {
   background-color: beige;
   color: #6f0000;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   padding: 0.5em;
   padding-left: 2em;
-  font-size: 26px;
+  font-size: 16px;
   font-family: "IBM Plex Mono", monospace;
 }
 
@@ -49,7 +47,8 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  padding: 0;
 }
 
 .design li,
@@ -57,8 +56,9 @@ h3 {
   list-style: none;
   width: 30%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
 }
 
 img {
@@ -67,15 +67,11 @@ img {
 
 .design p,
 .code p {
-  padding-left: 1em;
+  padding-left: 1px;
+  padding-top: 1em;
   color: #6f0000;
   font-family: "Share Tech Mono", monospace;
-  font-size: 25px;
-  font-weight: 600;
-}
-
-#api {
-  font-size: 19px;
+  font-size: 11px;
 }
 
 .soft li {
@@ -83,25 +79,111 @@ img {
   padding: 0.5em;
   color: #6f0000;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .education li {
   list-style: none;
+  text-align: justify;
+  width: 80%;
   padding: 0.5em;
   color: #6f0000;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 19px;
+  font-size: 13px;
 }
 
 .experience li {
   list-style: none;
+  text-align: justify;
   color: #6f0000;
   padding: 0.5em;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 19px;
+  font-size: 13px;
 }
 
-.experience {
+.experience ul {
   margin-bottom: 2em;
+  width: 78%;
+}
+
+@media (min-width: 768px) {
+  h5 {
+    width: 53%;
+    margin-left: 17em;
+  }
+
+  .design ul,
+  .code ul {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  h5 {
+    width: 53%;
+    margin: 0 auto;
+    margin-top: 2em;
+    font-size: 20px;
+  }
+
+  h2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 30px;
+  }
+
+  .hard h2 {
+    margin-top: 2em;
+    font-size: 30px;
+  }
+
+  h3 {
+    margin-bottom: 2em;
+    font-size: 26px;
+  }
+
+  .design ul,
+  .code ul {
+    justify-content: flex-start;
+  }
+
+  .design li,
+  .code li {
+    margin-bottom: 3em;
+  }
+
+  img {
+    width: 45px;
+  }
+
+  .design p,
+  .code p {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  #api {
+    width: 44%;
+    font-size: 19px;
+  }
+
+  .soft li {
+    font-size: 20px;
+    margin-left: 4em;
+  }
+
+  .education li {
+    font-size: 19px;
+    margin-left: 4em;
+  }
+
+  .experience li {
+    font-size: 19px;
+    width: 64%;
+    margin-left: 4em;
+  }
+
+  .experience {
+    margin-bottom: 2em;
+  }
 }
