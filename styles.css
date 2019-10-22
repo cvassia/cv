@@ -11,30 +11,18 @@ h5 {
   margin-left: 5em;
   text-align: justify;
   font-size: 10px;
-<<<<<<< HEAD
   color: #0d4185;
-=======
-  color: #6f0000;
->>>>>>> 208c4da7c9517349bab51f1771f069ae8365120e
   margin-top: 2em;
   font-family: "IBM Plex Mono", monospace;
 }
 
 h2 {
-<<<<<<< HEAD
   background-color: #0d4185;
   color: #ffffff;
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 9px;
 
-=======
-  background-color: #6f0000;
-  color: #d8d4d6;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding: 0.5em;
->>>>>>> 208c4da7c9517349bab51f1771f069ae8365120e
   font-size: 20px;
   font-family: "IBM Plex Mono", monospace;
 }
@@ -46,18 +34,11 @@ h2 {
 }
 
 h3 {
-<<<<<<< HEAD
   background-color: #c9d3ff;
   color: #221e5d;
   margin-bottom: 1.5em;
   padding: 7px;
 
-=======
-  background-color: beige;
-  color: #6f0000;
-  margin-bottom: 1.5em;
-  padding: 0.5em;
->>>>>>> 208c4da7c9517349bab51f1771f069ae8365120e
   padding-left: 2em;
   font-size: 16px;
   font-family: "IBM Plex Mono", monospace;
@@ -90,11 +71,7 @@ img {
 .code p {
   padding-left: 1px;
   padding-top: 1em;
-<<<<<<< HEAD
   color: #0d4185;
-=======
-  color: #6f0000;
->>>>>>> 208c4da7c9517349bab51f1771f069ae8365120e
   font-family: "Share Tech Mono", monospace;
   font-size: 11px;
 }
@@ -120,11 +97,7 @@ img {
 .experience li {
   list-style: none;
   text-align: justify;
-<<<<<<< HEAD
   color: #0d4185;
-=======
-  color: #6f0000;
->>>>>>> 208c4da7c9517349bab51f1771f069ae8365120e
   padding: 0.5em;
   font-family: "IBM Plex Mono", monospace;
   font-size: 13px;
@@ -135,7 +108,6 @@ img {
   width: 78%;
 }
 
-<<<<<<< HEAD
 .language li {
   list-style: none;
   display: flex;
@@ -254,19 +226,12 @@ ch {
   h5 {
     width: 53%;
     margin-left: 14em;
-=======
-@media (min-width: 768px) {
-  h5 {
-    width: 53%;
-    margin-left: 17em;
->>>>>>> 208c4da7c9517349bab51f1771f069ae8365120e
   }
 
   .design ul,
   .code ul {
     justify-content: center;
   }
-<<<<<<< HEAD
 
   .language ul {
     display: flex;
@@ -345,11 +310,6 @@ ch {
     border-left-width: 0;
   }
 
-=======
-}
-
-@media (min-width: 1024px) {
->>>>>>> 208c4da7c9517349bab51f1771f069ae8365120e
   h5 {
     width: 53%;
     margin: 0 auto;
@@ -417,7 +377,6 @@ ch {
   .experience {
     margin-bottom: 2em;
   }
-<<<<<<< HEAD
 
   .language ul {
     display: flex;
@@ -467,6 +426,4 @@ ch {
     padding: 12px;
     font-size: 23px;
   }
-=======
->>>>>>> 208c4da7c9517349bab51f1771f069ae8365120e
 }
