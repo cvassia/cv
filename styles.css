@@ -7,40 +7,40 @@
 }
 
 h5 {
-  width: 53%;
-  margin: 0 auto;
+  width: 70%;
+  margin-left: 5em;
   text-align: justify;
-  font-size: 20px;
-  color: #6f0000;
+  font-size: 10px;
+  color: #0d4185;
   margin-top: 2em;
   font-family: "IBM Plex Mono", monospace;
 }
 
 h2 {
-  background-color: #6f0000;
-  color: #d8d4d6;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding: 0.5em;
-  font-size: 30px;
+  background-color: #0d4185;
+  color: #ffffff;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 9px;
+
+  font-size: 20px;
   font-family: "IBM Plex Mono", monospace;
 }
 
 .hard h2 {
   margin-bottom: 0;
-  margin-top: 2em;
-
-  font-size: 30px;
+  font-size: 20px;
   font-family: "IBM Plex Mono", monospace;
 }
 
 h3 {
-  background-color: beige;
-  color: #6f0000;
-  margin-bottom: 2em;
-  padding: 0.5em;
+  background-color: #c9d3ff;
+  color: #221e5d;
+  margin-bottom: 1.5em;
+  padding: 7px;
+
   padding-left: 2em;
-  font-size: 26px;
+  font-size: 16px;
   font-family: "IBM Plex Mono", monospace;
 }
 
@@ -49,7 +49,8 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  padding: 0;
 }
 
 .design li,
@@ -57,8 +58,9 @@ h3 {
   list-style: none;
   width: 30%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
 }
 
 img {
@@ -67,41 +69,361 @@ img {
 
 .design p,
 .code p {
-  padding-left: 1em;
-  color: #6f0000;
+  padding-left: 1px;
+  padding-top: 1em;
+  color: #0d4185;
   font-family: "Share Tech Mono", monospace;
-  font-size: 25px;
-  font-weight: 600;
-}
-
-#api {
-  font-size: 19px;
+  font-size: 11px;
 }
 
 .soft li {
   list-style: none;
   padding: 0.5em;
-  color: #6f0000;
+  color: #0d4185;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .education li {
   list-style: none;
+  text-align: justify;
+  width: 80%;
   padding: 0.5em;
-  color: #6f0000;
+  color: #0d4185;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 19px;
+  font-size: 13px;
 }
 
 .experience li {
   list-style: none;
-  color: #6f0000;
+  text-align: justify;
+  color: #0d4185;
   padding: 0.5em;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 19px;
+  font-size: 13px;
 }
 
-.experience {
+.experience ul {
   margin-bottom: 2em;
+  width: 78%;
+}
+
+.language li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.language p {
+  color: #0d4185;
+  font-family: "Share Tech Mono", monospace;
+  padding-left: 27px;
+}
+
+.interests ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.interests li {
+  list-style: none;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5em;
+}
+
+.interests p {
+  color: #0d4185;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.fa-camera {
+  color: #cc6262;
+}
+
+.fa-book-open {
+  color: green;
+}
+
+.fa-microchip {
+  color: #d89b2c;
+}
+
+.fa-chess-knight {
+  padding-left: 9px;
+  color: #5f171b;
+}
+
+ch {
+  margin-left: 39px;
+}
+
+.fa-swimmer {
+  color: blue;
+}
+
+.con {
+  margin-left: 35px;
+}
+
+.contact p,
+.contact i {
+  list-style: none;
+  text-align: justify;
+  color: #0d4185;
+  padding: 0.5em;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+}
+
+.contact a {
+  color: #0d4185;
+  padding: 20px;
+}
+
+#site {
+  padding: 10px;
+  cursor: pointer;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+@media (min-width: 768px) {
+  .text {
+    position: relative;
+    border: none;
+    background: none;
+    padding: 8px 24px;
+  }
+
+  .text::before,
+  .text::after {
+    position: absolute;
+    top: -15px;
+    bottom: -11px;
+    width: 17px;
+    border: 8px solid #0d4185;
+    content: "";
+  }
+
+  .text::before {
+    left: -14px;
+    border-right-width: 0;
+  }
+
+  .text::after {
+    right: -10px;
+    border-left-width: 0;
+  }
+
+  h5 {
+    width: 53%;
+    margin-left: 14em;
+  }
+
+  .design ul,
+  .code ul {
+    justify-content: center;
+  }
+
+  .language ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin-left: -31px;
+  }
+
+  .language li {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .language p {
+    font-size: 23px;
+    padding-left: 0;
+  }
+
+  .language img {
+    margin-bottom: 20px;
+  }
+
+  .interests ul {
+    justify-content: none;
+  }
+
+  .interests li {
+    margin-top: 28px;
+  }
+
+  .interests p {
+    font-size: 23px;
+  }
+
+  .con {
+    margin-left: 100px;
+  }
+
+  .con p {
+    font-size: 23px;
+    font-weight: 800;
+  }
+
+  #site {
+    padding: 12px;
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text {
+    position: relative;
+    border: none;
+    background: none;
+    padding: 8px 24px;
+  }
+
+  .text::before,
+  .text::after {
+    position: absolute;
+    top: -15px;
+    bottom: -11px;
+    width: 17px;
+    border: 8px solid #0d4185;
+    content: "";
+  }
+
+  .text::before {
+    left: -14px;
+    border-right-width: 0;
+  }
+
+  .text::after {
+    right: -10px;
+    border-left-width: 0;
+  }
+
+  h5 {
+    width: 53%;
+    margin: 0 auto;
+    margin-top: 2em;
+    font-size: 20px;
+  }
+
+  h2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 30px;
+  }
+
+  .hard h2 {
+    margin-top: 2em;
+    font-size: 30px;
+  }
+
+  h3 {
+    margin-bottom: 2em;
+    font-size: 26px;
+  }
+
+  .design ul,
+  .code ul {
+    justify-content: flex-start;
+  }
+
+  .design li,
+  .code li {
+    margin-bottom: 3em;
+  }
+
+  img {
+    width: 45px;
+  }
+
+  .design p,
+  .code p {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  #api {
+    width: 44%;
+    font-size: 19px;
+  }
+
+  .soft li {
+    font-size: 20px;
+    margin-left: 4em;
+  }
+
+  .education li {
+    font-size: 19px;
+    margin-left: 4em;
+  }
+
+  .experience li {
+    font-size: 19px;
+    width: 64%;
+    margin-left: 4em;
+  }
+
+  .experience {
+    margin-bottom: 2em;
+  }
+
+  .language ul {
+    display: flex;
+    justify-content: space-around;
+    width: 66%;
+    margin: 0 auto;
+  }
+
+  .language li {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .language p {
+    font-size: 23px;
+    padding-left: 0;
+  }
+
+  .language img {
+    margin-bottom: 20px;
+  }
+
+  .interests ul {
+    justify-content: none;
+    width: 64%;
+    margin: 0 auto;
+  }
+
+  .interests li {
+    margin-top: 28px;
+  }
+
+  .interests p {
+    font-size: 23px;
+  }
+
+  .con {
+    margin-left: 164px;
+  }
+  .con p {
+    font-size: 23px;
+    font-weight: 800;
+  }
+
+  #site {
+    padding: 12px;
+    font-size: 23px;
+  }
 }
