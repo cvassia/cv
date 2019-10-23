@@ -121,6 +121,11 @@ img {
   padding-left: 27px;
 }
 
+.language img {
+  width: 4em;
+  border-radius: 6px;
+}
+
 .interests ul {
   display: flex;
   flex-wrap: wrap;
@@ -145,33 +150,13 @@ img {
   margin-top: 10px;
 }
 
-.fa-camera {
-  color: #cc6262;
-}
-
-.fa-book-open {
-  color: green;
-}
-
-.fa-microchip {
-  color: #d89b2c;
-}
-
-.fa-chess-knight {
-  padding-left: 9px;
-  color: #5f171b;
-}
-
-ch {
-  margin-left: 39px;
-}
-
-.fa-swimmer {
-  color: blue;
+.interests img {
+  width: 4em;
+  border-radius: 6px;
 }
 
 .con {
-  margin-left: 35px;
+  margin-left: 11px;
 }
 
 .contact p,
@@ -186,13 +171,28 @@ ch {
 
 .contact a {
   color: #0d4185;
-  padding: 20px;
+  padding: 10px;
+  margin-bottom: 0.5em;
 }
 
 #site {
   padding: 10px;
   cursor: pointer;
   font-family: "IBM Plex Mono", monospace;
+}
+
+#portrait {
+  position: absolute;
+  top: 200em;
+  left: 34em;
+  width: 22%;
+}
+
+#portrait {
+  position: absolute;
+  top: 198em;
+  left: 15em;
+  width: 21%;
 }
 
 @media (min-width: 768px) {
@@ -253,6 +253,8 @@ ch {
 
   .language img {
     margin-bottom: 20px;
+    width: 5em;
+    border-radius: 10px;
   }
 
   .interests ul {
@@ -267,6 +269,11 @@ ch {
     font-size: 23px;
   }
 
+  .interests img {
+    width: 8em;
+    border-radius: 10px;
+  }
+
   .con {
     margin-left: 100px;
   }
@@ -274,6 +281,11 @@ ch {
   .con p {
     font-size: 23px;
     font-weight: 800;
+  }
+
+  #portrait {
+    top: 201em;
+    left: 32em;
   }
 
   #site {
@@ -398,6 +410,7 @@ ch {
 
   .language img {
     margin-bottom: 20px;
+    width: 7em;
   }
 
   .interests ul {
@@ -414,8 +427,13 @@ ch {
     font-size: 23px;
   }
 
+  .interests img {
+    width: 10em;
+    border-radius: 20px;
+  }
+
   .con {
-    margin-left: 164px;
+    margin-left: 252px;
   }
   .con p {
     font-size: 23px;
@@ -425,5 +443,11 @@ ch {
   #site {
     padding: 12px;
     font-size: 23px;
+  }
+
+  #portrait {
+    top: 311em;
+    left: 50em;
+    width: 15%;
   }
 }
